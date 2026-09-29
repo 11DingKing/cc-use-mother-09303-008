@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product": "合作项目风险登记",
+  "source_context": "https://world.people.com.cn/n1/2026/0924/c1002-40804903.html",
+  "actors": [
+    "项目秘书处",
+    "风险责任人",
+    "审批人员"
+  ],
+  "states": [
+    "识别",
+    "评估",
+    "限制",
+    "缓解",
+    "复查"
+  ],
+  "invariants": [
+    "风险传播",
+    "例外批准",
+    "定时复查",
+    "限制解除"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "09303-008-A",
+      "actor": "项目秘书处",
+      "state": "识别"
+    },
+    {
+      "case_id": "09303-008-B",
+      "actor": "审批人员",
+      "state": "评估"
+    }
+  ],
+  "tags": [
+    "project-risk",
+    "control-propagation"
+  ]
+}
