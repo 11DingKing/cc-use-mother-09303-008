@@ -20,6 +20,41 @@
     "定时复查",
     "限制解除"
   ],
+  "risk_elements": [
+    "风险来源",
+    "影响对象",
+    "责任人",
+    "缓解措施",
+    "限制动作",
+    "复查日期"
+  ],
+  "risk_lifecycle": ["OPEN", "MERGED", "CLOSED"],
+  "control_actions": [
+    "暂停招生",
+    "冻结付款",
+    "暂停里程碑"
+  ],
+  "propagated_flows": ["招生", "付款", "里程碑"],
+  "rating_levels": ["低", "中", "高", "严重"],
+  "decision_events": [
+    "RULESET_PUBLISHED",
+    "RISK_REGISTERED",
+    "RISK_RATED",
+    "RISK_DOWNGRADED",
+    "RISK_CONTROL_ADDED",
+    "RESTRICTION_RELEASED",
+    "FLOW_RESTORED",
+    "EXCEPTION_GRANTED",
+    "EXCEPTION_REVOKED",
+    "EXCEPTION_EXPIRED",
+    "RISK_MERGED",
+    "RISK_REVIEW_DUE",
+    "RISK_REVIEWED",
+    "RISK_CLOSED",
+    "RISK_REOPENED"
+  ],
+  "review_conclusions": ["CONFIRMED", "ADJUSTED", "RESOLVED"],
+  "gate_decisions": ["ALLOWED", "ALLOWED_WITH_EXCEPTION", "BLOCKED"],
   "sample_cases": [
     {
       "case_id": "09303-008-A",
