@@ -18,7 +18,10 @@
     "风险传播",
     "例外批准",
     "定时复查",
-    "限制解除"
+    "限制解除",
+    "版本评定",
+    "决定链可追溯",
+    "合并降级复开留痕"
   ],
   "sample_cases": [
     {
@@ -34,6 +37,8 @@
   ],
   "tags": [
     "project-risk",
-    "control-propagation"
+    "control-propagation",
+    "versioned-rules",
+    "decision-chain"
   ]
 }
